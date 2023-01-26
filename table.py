@@ -39,11 +39,11 @@ class Table:
 
     @property
     def blue_nodes_terminals(self):
-        return self.__edge_nodes_blue_goal.extend(self.__edge_nodes_blue_start)
+        return self.__edge_nodes_blue_goal + self.__edge_nodes_blue_start
 
     @property
     def red_nodes_terminals(self):
-        return self.__edge_nodes_red_goal.extend(self.__edge_nodes_red_start)
+        return self.__edge_nodes_red_goal + self.__edge_nodes_red_start
 
     @property
     def nodes(self):
