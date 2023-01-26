@@ -1,0 +1,7 @@
+RED = 'red'
+BLUE = 'blue'
+VSAI = 'vsAI'
+VSHUMAN = 'vshuman'
+RED_INDICATOR = 'r'
+BLUE_INDICATOR = 'b'
+WHITE_INDICATOR = 'w'
